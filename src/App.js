@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import ComponentA from '../src/components/ComponentA/ComponentA'
+import ComponentB from '../src/components/ComponentB/ComponentB'
+import ComponentC from '../src/components/ComponentC/ComponentC'
+import ComponentD from '../src/components/ComponentD/ComponentD'
 
 function App() {
   return (
@@ -15,8 +19,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Live React Component
         </a>
+        <ComponentA />
+        <ComponentB />
+        <ComponentC />
+        <ComponentD />
       </header>
     </div>
   );
