@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import ComponentA from '../src/components/ComponentA/ComponentA'
-import ComponentB from '../src/components/ComponentB/ComponentB'
-import ComponentC from '../src/components/ComponentC/ComponentC'
-import ComponentD from '../src/components/ComponentD/ComponentD'
+import ParentComponent from './components/ParentComponent/ParentComponent';
+// import ComponentA from '../src/components/ComponentA/ComponentA'
+// import ComponentB from '../src/components/ComponentB/ComponentB'
+// import ComponentC from '../src/components/ComponentC/ComponentC'
+// import ComponentD from '../src/components/ComponentD/ComponentD'
 
 function App() {
   return (
@@ -21,10 +22,7 @@ function App() {
         >
           Live React Component
         </a>
-        <ComponentA />
-        <ComponentB />
-        <ComponentC />
-        <ComponentD />
+        <ParentComponent />
       </header>
     </div>
   );
